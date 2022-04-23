@@ -7,6 +7,8 @@ import os
 import datetime
 import base64
 
+import os
+
 from inferenceutils import * 
 
 path_file = os.getcwd().replace("\\", "/")+"/"
