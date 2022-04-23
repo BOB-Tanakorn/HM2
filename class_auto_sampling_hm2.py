@@ -24,25 +24,6 @@ class Auto_sampling_hm2:
 
     def __init__(self):
         pass
-        
-    # def connect_db_hm2(self):
-    #     for loop_connect_db in range(5):
-    #         try:
-    #             # connection server JobHM
-    #             server = '192.168.1.10' 
-    #             database = 'AUTO_SAMPING_HM' 
-    #             username = 'sa' 
-    #             password = '123456' 
-    #             mydb = pyodbc.connect('DRIVER={ODBC Driver 11 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
-    #             mycursor = mydb.cursor()
-    #             loop_connect_db = None
-    #             break
-    #         except:
-    #             pass
-    #     if loop_connect_db == 4:
-    #         mycursor = False
-    #     return mycursor
-
 
     def connect_db_hm2(self):
         for loop_connect_db in range(5):
