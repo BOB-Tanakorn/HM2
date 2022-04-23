@@ -6,7 +6,7 @@ import tensorflow as tf
 import os
 import datetime
 import base64
-sgdfg
+
 from inferenceutils import * 
 
 path_file = os.getcwd().replace("\\", "/")+"/"
