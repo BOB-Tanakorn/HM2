@@ -6,8 +6,6 @@ import tensorflow as tf
 import os
 import datetime
 import base64
-#ssss
-
 
 from inferenceutils import * 
 
